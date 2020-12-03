@@ -1,0 +1,241 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: #dfe6e9;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+.header h1{
+    font-size: 88px;
+    font-family: 'Lato', sans-serif;
+}
+.header p{
+    font-size: 36px;
+    font-style: italic;
+}
+.header nav{}
+
+.header nav ul {
+    background: #636e72;
+    padding: 15px;
+}
+.header nav ul li{
+    display: inline;
+}
+.header nav ul li a {
+    padding: 15px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.header nav ul li a:hover{
+    background: #2d3436;
+    color:cornflowerblue;
+    transition: .5s;
+}
+.banner{
+    min-height:400px;
+    background: url(../images/48.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: -19px;
+}
+.banner h1{
+    font-size: 80px;
+    margin-top: 20px;
+    font-size: 100px;
+    font-family: 'Nerko One', cursive;
+    padding-top: 100px;
+    font-weight: 100;
+    color: #ffff;
+}
+.banner h4 {
+    font-size: 45px;
+    margin-top: -20px;
+    padding: 5px;
+    color: #636e72;
+}
+    .banner p{
+        font-size: 20px;
+        text-align: center;
+        padding: 0px 260px;
+    }
+    .service{
+        width: 100%;
+        background: #636e72;
+        padding: 40px 20px;
+        display: flex;
+    }
+    .service .left{
+        width: 50%;
+    }
+    .service .left img{
+        width: 100%;
+        border-radius: 200px 75px 200px 75px;
+}
+    .service .right{
+        width: 50%;
+        text-align: center;
+    }
+.service .right h1{
+    font-size: 60px;
+    font-family: 'Nerko One', cursive;
+    color: #ffff;
+}
+.service .right p{
+        text-align: justify;
+        padding: 48px;
+        font-size: 20px;
+    }
+    .service2{
+        width: 100%;
+        background:#84817a;
+        text-align: center;
+        display: flex;
+        padding: 100px 90px;
+    }
+    .one{
+        width: 250px;
+        padding: 50px 20px;
+        margin-left: 5px;
+        background: #747d8c;;
+    }
+    .one p{
+        text-align: justify;
+        font-size: 16px;
+        line-height: 31px;
+        padding: 0px 20px;
+    }
+    .bro{
+        font-size: 90px;
+        padding: 10px 0px;
+        color: #ffff;
+    }
+    .skill{
+        font-size: 30px;
+        text-transform: capitalize;
+        padding: 10px 0px 18px 0px;
+    }
+
+    .btn{
+        width:100%;
+        margin-top: 30px;
+        padding: 14px;
+        text-transform: capitalize;
+    }
+    .btn:hover{
+        background:#2d3436;
+        color: cornflowerblue;
+        border-radius: 10px;
+        transition: .5s;
+    }
+    .bt{
+        width: 90%;
+    }
+    .team{
+        width: 100%;
+        background:#aaa69d;
+        display: flex;
+        padding: 80px 0px;
+        text-align: center;
+        
+        
+    }
+    .tow{
+        width: 300px;
+        text-align: center;
+        margin-left: 5px;
+        background: #2f3542;
+        padding: 80px 0px;
+        border-radius: 30px 30px 30px 30px;
+    }
+    .team .tow img{
+        width:70%;
+        border-radius: 50%;
+    }
+    .media{
+    }
+.tow h1{
+    font-family: 'Calligraffitti', cursive;
+    color: #fff;
+    text-transform: capitalize;
+}
+.tow span{
+    color: #fff;
+    text-transform: capitalize;
+    padding: 5px 0px;
+}
+.sora{
+    margin-left:65px;
+}
+.media{
+       padding-top: 10px;
+}
+.big{
+    font-size: 20px;
+    padding:10px;
+    background: #ffff;
+    color:#a4b0be;
+    border-radius: 50%;
+}
+.big:hover{
+    background: #0000;
+    color: #ffff;
+    transition: .5s;
+}
+
+.bogura{
+    width: 100%;
+    background: #84817a;
+    display: flex;
+    padding: 100px 50px;
+    text-align: center;
+}
+.rafsan{
+    width: 50%;
+}
+.rafsan h1{
+    font-size: 60px;
+    text-transform: capitalize;
+    color: #ffff;
+}
+.rafsan p{
+    font-size: 20px;
+    text-align:justify;
+    color: black;
+}
+.rafsan hr{
+    width: 120px;
+}
+.nazmul{
+    width: 50%;
+}
+.nazmul img {
+    width: 70%;
+    border-radius: 287px 90px 60px 75px;
+}
+.footer{
+    background: #dfe6e9;
+    padding: 50px;
+}
+.footer p{
+    
+}
+.copy{
+    text-align: right;
+    text-transform: capitalize;
+    color: balck;
+    font-size: 18px;
+}
+
+    
